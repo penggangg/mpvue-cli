@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/counter/counter"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#dadada",
+    "selectedColor": "#09bb07",
+    "backgroundColor":"#fff",
+    "borderStyle": "#f6f6f6",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "存包"
+      },{
+        "pagePath": "pages/counter/counter",
+        "text": "取包"
+      }
+    ]
+  }
+}
